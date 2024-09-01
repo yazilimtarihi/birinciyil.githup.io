@@ -1,0 +1,27 @@
+body {
+  font-family: 'Source Code Pro', monospace;
+  text-align:center;
+}
+body.dark {
+  color:white;
+  background-color:black;
+}
+#darkMode {
+  position:fixed;
+  right:0;
+  top:0;
+  padding:5px;
+}
+#darkMode:hover {
+  cursor:pointer;
+}
+#grid {
+ white-space:pre;
+}
+.container {
+  padding:3px;
+}
+h1 {
+  font-size:1.5em;
+  padding:0px;
+}
